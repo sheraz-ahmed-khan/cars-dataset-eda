@@ -7,7 +7,6 @@ This project analyzes a car dataset containing various attributes such as brand,
 - Explore and visualize key aspects of the dataset  
 - Identify the most fuel-efficient cars  
 - Investigate relationships between engine characteristics and MSRP  
-- Build a simple predictive model to estimate car prices based on engine features  
 - Detect potentially overpriced cars based on this model  
 
 ## Dataset
@@ -40,12 +39,14 @@ The dataset includes the following important columns:
    - Calculated differences between actual MSRP and predicted MSRP  
    - Identified top 10 potentially overpriced cars based on the largest positive difference  
 
-## How to Run
+## Usage
 
-1. **Prerequisites**  
-   - Python 3.x  
-   - Packages: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `tabulate`  
+- Load your car dataset into a pandas DataFrame (`df`)  
+- Run the provided Python scripts/notebooks to perform analysis, visualization, and prediction  
+- Review outputs and plots for insights  
 
-   Install required packages via pip:  
-   ```bash
-   pip install pandas matplotlib seaborn scikit-learn tabulate
+
+## Author
+
+[Sheraz Ahmed Khan]  
+[sheraz.ahmed@upc.edu]
