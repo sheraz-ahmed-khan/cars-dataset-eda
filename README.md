@@ -1,8 +1,8 @@
-# Car Data Analysis and Price Prediction
+# Cars Data Analysis
 
 ## Project Overview
 
-This project analyzes a car dataset containing various attributes such as brand, model, engine specifications, fuel efficiency, and pricing (MSRP). The goal is to:
+This project analyzes cars dataset containing various attributes such as brand, model, engine specifications, fuel efficiency, and pricing (MSRP). The goal is to:
 
 - Explore and visualize key aspects of the dataset  
 - Identify the most fuel-efficient cars  
@@ -32,11 +32,8 @@ The dataset includes the following important columns:
 
 2. **Engine and Price Relationship**  
    - Explored scatter plots between engine horsepower, cylinders, and MSRP to observe trends  
-   - Used simple linear regression on engine horsepower and cylinders to predict MSRP  
 
-3. **Price Prediction and Overpriced Cars Detection**  
-   - Trained a linear regression model using engine HP and cylinders to estimate MSRP  
-   - Calculated differences between actual MSRP and predicted MSRP  
+3. **Overpriced Cars Detection**  
    - Identified top 10 potentially overpriced cars based on the largest positive difference  
 
 ## Usage
